@@ -1,41 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="author" content="" />
 
-    <title>Shake_test</title>
+	<title>Shake_test</title>
 
-    <link href="./test.css" rel="stylesheet" type="text/css" />
-    <link href="./bootstrap.min.css" rel="stylesheet"/>
-    <script src="./jquery.js"></script>
-    <script src="./jquery.shake.js"></script>
-    <script type="text/javascript">
-        
-        $(document).ready(function () {
-             $("#Btn").click(function () {
-                        $("#Input1").shake({direction:"right"});
-                    $("#Input2").shake({direction:"left"});
-                });
-        });
-        
-    </script>
+	<link href="./test.css" rel="stylesheet" type="text/css" />
+	<link href="./bootstrap.min.css" rel="stylesheet" />
+	<script src="./jquery.js"></script>
+	<script src="./jquery.shake.js"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+			$("#Btn").click(function () {
+				$("#Input1").shake({ direction: "right" });
+				$("#Input2").shake({ direction: "left" });
+			});
+		});
+
+	</script>
 </head>
 <body>
-    <div>
-        <form class="form">
-            <h2>Test</h2>
-            <input id="Input1" class="form-control">
-            <br/>
-            <input id="Input2" class="form-control">
-            <br/>
-            <button id="Btn" class="btn btn-lg btn-primary btn-block" type="button">Test</button>
+	<div class="wrapper">
+		<div>
+			<h1>Jquery-shake</h1>
+			<br>Shakes the element, horizontally.</br>
+		</div>
+		<h2>Usage</h2>
+		<ul>
+			<li>
+				include jQuery:
+				<br />
+				<code>
+					&ltscript src="http://code.jquery.com/jquery-1.11.0.min.js"&gt&lt/script&gt
+				</code>
+			</li>
+			<li>
+				add js:
+				<br>
+				<code>
+					&ltscript src="./jquery.shake.js"&gt&lt/script&gt
+				</code>
+			</li>
+
+		</ul>
+		<h3>Shake</h3>
+		<ul>
+			<li>call the plugin, with js</li>
+			<code>$.shake()</code>
+		</ul>
+		<pre>
+		<span>$("#element").shake();</span>
+    </pre>
+		<h4>Options:</h4>
+		<ul>
+			<li>
+				<p>
+					<b>direction (default:"left")</b>
+					<br />Type: String
+					<br />A value of "left" or "right" will shake the element horizontally
+			</li>
+
+			<li>
+				<p>
+					<b>vibration (default: 6)</b>
+					<br />Type: integer
+					<br />Number of oscillations
+			</li>
+			<li>
+				<p>
+					<b>amplitude (default: 50)</b>
+					<br />Type: integer
+					<br />Value of the first deviation
+			</li>
+			<li>
+				<p>
+					<b>timeFirstDeviation (default: 240)</b>
+					<br />Type: integer
+					<br />Time of the first deviation
+			</li>
+		</ul>
+		<h2>Example:</h2>
+		<h4>Shake a input</h4>
+        <html><body style='color:#000000; background:#ffffff; '><pre>
+<span style='color:#004a43; '>&lt;!doctype html></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>html</span><span style='color:#274796; '> </span><span style='color:#074726; '>lang</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"en"</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>head</span><span style='color:#a65700; '>></span>
+   <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>meta</span><span style='color:#274796; '> </span><span style='color:#074726; '>charset</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"utf-8"</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>title</span><span style='color:#a65700; '>></span>shake demo<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>title</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>style</span><span style='color:#a65700; '>></span>
+    <span style='color:#808030; '>#</span>Demo <span style='color:#800080; '>{</span>
+        <span style='color:#bb7977; font-weight:bold; '>width</span><span style='color:#808030; '>:</span> <span style='color:#008c00; '>100</span><span style='color:#006600; '>px</span><span style='color:#800080; '>;</span>
+        <span style='color:#bb7977; font-weight:bold; '>height</span><span style='color:#808030; '>:</span> <span style='color:#008c00; '>20</span><span style='color:#006600; '>px</span><span style='color:#800080; '>;</span>
+        <span style='color:#bb7977; font-weight:bold; '>background</span><span style='color:#808030; '>:</span> <span style='color:#008c00; '>#</span><span style='color:#008000; '>111</span><span style='color:#800080; '>;</span>
+    <span style='color:#800080; '>}</span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>style</span><span style='color:#a65700; '>></span>
+   <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>script src="http://code.jquery.com/jquery-1.11.0.min.js"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>script</span><span style='color:#a65700; '>></span>
+   <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>script src="./jquery.shake.js"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>script</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>head</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>body</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>input</span><span style='color:#274796; '> </span><span style='color:#074726; '>id</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"Demo"</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>script</span><span style='color:#a65700; '>></span>
+$<span style='color:#808030; '>(</span>document<span style='color:#808030; '>)</span><span style='color:#808030; '>.</span>click<span style='color:#808030; '>(</span><span style='color:#800000; font-weight:bold; '>function</span><span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#800080; '>{</span>
+            $<span style='color:#808030; '>(</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>#Demo</span><span style='color:#800000; '>"</span><span style='color:#808030; '>)</span><span style='color:#808030; '>.</span>shake<span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+        <span style='color:#800080; '>}</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>script</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>body</span><span style='color:#a65700; '>></span>
+
+<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>html</span><span style='color:#a65700; '>></span>
+</pre>
+    
+		<div>
+			<form class="form">
+				<h2>Demo</h2>
+				<input id="Input1" class="form-control">
+				<br />
+				<input id="Input2" class="form-control">
+				<br />
+				<button id="Btn" class="btn btn-lg btn-primary btn-block" type="button">Test</button>
 
 
-        </form>
-    </div>
+			</form>
+		</div>
+	</div>
 </body>
 </html>

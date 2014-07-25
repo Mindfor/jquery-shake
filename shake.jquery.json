@@ -6,13 +6,14 @@
         "shake",
         "animation"
     ],
-    "version": "1.0.1",
+    "version": "1.0.3",
     "author": {
         "name": "Anton Kryuchkov",
         "email": "toshiba.kru@gmail.com"
     },
     "homepage": "https://github.com/Mindfor/jquery-shake",
-    "docs": "https://github.com/Mindfor/jquery-shake",
+    "download":"https://github.com/Mindfor/jquery-shake/archive/master.zip",
+    "docs": "https://github.com/Mindfor/jquery-shake/blob/master/documentation.pdf",
     "dependencies": {
         "jquery": ">=1.5"
     },

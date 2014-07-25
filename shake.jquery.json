@@ -1,0 +1,25 @@
+{
+    "name": "shake",
+    "title": "jQuery Shake",
+    "description": "jQuery plugin for shakes the element, horizontally..",
+    "keywords": [
+        "shake",
+        "animation"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Anton Kryuchkov",
+        "email": "toshiba.kru@gmail.com"
+    },
+    "homepage": "https://github.com/Mindfor/jquery-shake",
+    "docs": "https://github.com/Mindfor/jquery-shake",
+    "dependencies": {
+        "jquery": ">=1.5"
+    },
+    "licenses": [
+        {
+            "type": "GPLv2",
+            "url": "https://github.com/Mindfor/jquery-shake/blob/master/LICENSE"
+        }
+    ]
+}

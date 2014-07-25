@@ -1,0 +1,20 @@
+Shake effect:
+Description: shakes the element, horizontally.
+
+shake:
+
+-direction (default: "left")
+Type: String
+A value of "left" or "right" will shake the element horizontally.
+
+-vibration (default: 6)
+Type: integer
+Number of oscillations
+
+-amplitude (default: 50)
+Type: integer
+Value of the first deviation
+
+-timeFirstDeviation (default: 240)
+Type: integer
+Time of the first deviation

@@ -1,14 +1,13 @@
 #jquery-shake#
 Shakes the element, horizontally. 
-##Demo:##       
-<http://mindfor.ru/docs/shake-demo.html>
+##Demo:##
+<http://mindfor.ru/docs/shake-demo.html>    
 
-##Usage##
-* include jQuery:         
-￼￼<script src="http://code.jquery.com/jquery-￼1.11.0.min.js"></script>      
-* add js:   
-￼￼<script src="./jquery.shake.js"></script>  
-
+##Usage
+* include jQuery:     
+```<script src="http://code.jquery.com/jquery-￼1.11.0.min.js "></script>  ```        
+* add js:  
+```￼￼<script src="./jquery.shake.js"></script>  ```   
             
 ##Shake##
 ￼call the plugin, with js   
@@ -30,8 +29,9 @@ Shakes the element, horizontally.
 ￼Time of the first deviation    
 
 ##Example:    ##
-￼￼Shake a input     
-￼<!doctype html>    
+￼￼Shake a input
+```html
+￼<!doctype html>
 ￼<html lang="en">   
 ￼<head> 
 ￼<meta charset="utf-8"> 
@@ -53,3 +53,4 @@ height: 20px;
 });     
 ￼￼</body>   
 </html>
+```

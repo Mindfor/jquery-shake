@@ -37,7 +37,7 @@ Shakes the element, horizontally.
     <meta charset="utf-8">
     <title>shake demo</title>
     <style>
-        \#Demo {
+        #Demo {
             width: 100px;
             height: 20px;
             background: #111;
@@ -54,6 +54,5 @@ Shakes the element, horizontally.
         });
     </script>
 </body>
-
 </html>
 ```

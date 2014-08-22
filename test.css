@@ -14,3 +14,50 @@ body {
   margin: 0 auto;
   position: relative;
 }
+
+header {
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.702941);
+	z-index: 9998;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	right: 0;
+	border-bottom: solid 1px #ccc;
+}
+	header	.logo {
+		float: left;
+		display: block;
+		height: 50px;
+		
+		> img {
+			height: 50px;
+		}
+	}
+
+
+header .mainmenu {
+		text-align: right;
+		font-size: 1.1em;
+}
+
+		header .mainmenu menu {
+			padding: 0;
+			margin: 0;
+		}
+			
+			header .mainmenu menu  > li {
+				height: 100%;
+				display: inline-block;
+			}
+				
+				header .mainmenu menu  > li > a, header .mainmenu menu  > li > span {
+					display: block;
+					padding: 15px 10px;
+					color: #000;
+				}
+
+					header .mainmenu menu  > li > a.active {
+						font-weight: bold;
+					}
+		

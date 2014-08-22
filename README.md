@@ -31,26 +31,29 @@ Shakes the element, horizontally.
 ##Example:    ##
 ￼￼Shake a input
 ```html
-￼<!doctype html>
-￼<html lang="en">   
-￼<head> 
-￼<meta charset="utf-8"> 
-￼<title>shake demo</title>  
-￼<style>      
-width: 100px;   
-height: 20px;   
-￼background: #111;  
-￼￼</style>  
-￼<script src="http://code.jquery.com/jquery-￼1.11.0.min.js"></script>   
-￼<script src="./jquery.shake.js"></script>  
-￼</head>    
-￼<body>     
-￼<input id="Demo">  
-￼<script>   
-￼$(document).click(function(){  
-￼$("#Demo").shake();    
-￼</script>  
-});     
-￼￼</body>   
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>shake demo</title>
+    <style>
+        \#Demo {
+            width: 100px;
+            height: 20px;
+            background: #111;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./jquery.shake.js"></script>
+</head>
+<body>
+    <input id="Demo">
+    <script>
+        $(document).click(function () {
+            $("#Demo").shake();
+        });
+    </script>
+</body>
+
 </html>
 ```

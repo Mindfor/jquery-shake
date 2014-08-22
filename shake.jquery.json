@@ -1,20 +1,20 @@
 {
     "name": "shake",
     "title": "jQuery Shake",
-    "description": "jQuery plugin for shakes the element, horizontally..",
+    "description": "jQuery plugin for shakes the element, horizontally.",
     "keywords": [
         "shake",
         "animation"
     ],
-    "version": "1.0.7",
+    "version": "1.0.8",
     "author": {
         "name": "Anton Kryuchkov",
         "email": "toshiba.kru@gmail.com",
         "company": "Mindfor, Ltd."
     },
     "download":"https://github.com/Mindfor/jquery-shake/archive/master.zip",
-    "demo": "http://mindfor.ru/docs/shake-demo.html",
-    "docs": "http://mindfor.ru/docs/jquery-shake.pdf",
+    "demo": "http://mindfor.github.io/jquery-shake/",
+    "docs": "http://mindfor.github.io/jquery-shake/jquery-shake.pdf",
     "dependencies": {
         "jquery": ">=1.5"
     },

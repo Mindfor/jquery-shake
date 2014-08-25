@@ -13,8 +13,8 @@
         "company": "Mindfor, Ltd."
     },
     "download":"https://github.com/Mindfor/jquery-shake/archive/master.zip",
-    "demo": "http://mindfor.ru/docs/shake-demo.html",
-    "docs": "http://mindfor.ru/docs/jquery-shake.pdf",
+    "demo": "http://mindfor.github.io/jquery-shake/",
+    "docs": "http://mindfor.github.io/jquery-shake/jquery-shake.pdf",
     "dependencies": {
         "jquery": ">=1.5"
     },

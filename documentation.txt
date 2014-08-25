@@ -8,7 +8,7 @@ include jQuery:
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
 add js: 
-<script src="./jquery.shake.js"></script>
+<script src="./mindfor.shake.js"></script>
 
 Shake
 
@@ -51,7 +51,7 @@ Shake a input
     }
     </style>
    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-   <script src="./jquery.shake.js"></script>
+   <script src="./mindfor.shake.js"></script>
 </head>
 <body>
         <input id="Demo">

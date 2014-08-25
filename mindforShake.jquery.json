@@ -1,12 +1,12 @@
 {
     "name": "shake",
-    "title": "jQuery Shake",
+    "title": "Mindfor jQuery Shake",
     "description": "jQuery plugin for shakes the element, horizontally..",
     "keywords": [
         "shake",
         "animation"
     ],
-    "version": "1.0.7",
+    "version": "1.0.9",
     "author": {
         "name": "Anton Kryuchkov",
         "email": "toshiba.kru@gmail.com",
